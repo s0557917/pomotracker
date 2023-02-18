@@ -16,6 +16,7 @@ function App() {
         breakMinutes,
         setWorkMinutes,
         setBreakMinutes,
+        setShowSettings,
       }}>
         {showSettings ? <Settings /> : <Timer />}
       </SettingsContext.Provider>
